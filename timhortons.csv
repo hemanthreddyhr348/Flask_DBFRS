@@ -1,0 +1,204 @@
+Menu Item,Item Type,Item Temp,Wheat,Gluten,Milk,Egg,Soy,Peanuts,Tree Nuts,Fish,Shellfish,Sesame,Mustard,Sulphites,Food chain
+Original Blend Coffee,Hot Beverages,Hot,,,,,,,,,,,,,timhortons
+Dark Roast Coffee,Hot Beverages,Hot,,,,,,,,,,,,,timhortons
+Decaf Coffee,Hot Beverages,Hot,,,,,,,,,,,,,timhortons
+Regular Coffee,Hot Beverages,Hot,,,x,,,,,,,,,,timhortons
+Double Double Coffee,Hot Beverages,Hot,,,x,,,,,,,,,,timhortons
+Cappuccino,Hot Beverages,Hot,,,x,,,,o,,,,,,timhortons
+Latte,Hot Beverages,Hot,,,x,,,,o,,,,,,timhortons
+Coffee Mocha,Hot Beverages,Hot,,,x,,o,,,,,,,,timhortons
+French Vanilla,Hot Beverages,Hot,,,x,,x,,,,,,,,timhortons
+Hot Chocolate,Hot Beverages,Hot,,,x,,o,,,,,,,,timhortons
+White Hot Chocolate,Hot Beverages,Hot,,,x,,,,,,,,,,timhortons
+London Fog,Hot Beverages,Hot,,,x,,,,o,,,,,,timhortons
+Bagged Tea,Hot Beverages,Hot,,,,,,,,,,,,,timhortons
+Steeped Tea,Hot Beverages,Hot,,,,,,,,,,,,,timhortons
+Roasted Hazelnut Latte,Hot Beverages,Hot,,,x,,,,o,,,,,,timhortons
+Pumpkin Spice Latte,Hot Beverages,Hot,o,o,x,,o,,,,,,o,o,timhortons
+Iced Coffee,Cold Beverages,Cold,,,x,,,,,,,,,,timhortons
+Light Iced Coffee,Cold Beverages,Cold,,,x,,,,,,,,,,timhortons
+Original Cold Brew,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+Vanilla Cream Cold Brew,Cold Beverages,Cold,,,x,,,,,,,,,,timhortons
+Original Iced Capp®,Cold Beverages,Cold,,,x,,,,o,,,,,,timhortons
+Light Iced Capp®,Cold Beverages,Cold,,,x,,,,o,,,,,,timhortons
+Mocha Iced Capp®,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Vanilla Iced Capp®,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Caramel Iced Capp®,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Chocolate Creamy Chill,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Vanilla Creamy Chill,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Strawberry Creamy Chill,Cold Beverages,Cold,,,x,,x,,o,,,,,o,timhortons
+Strawberry Smoothie,Cold Beverages,Cold,,,x,,o,,o,,,,,,timhortons
+Frozen Lemonade,Cold Beverages,Cold,,,o,,o,,o,,,,,o,timhortons
+Strawberry Frozen Lemonade,Cold Beverages,Cold,,,o,,o,,o,,,,,o,timhortons
+Classic Lemonade,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+Peach Quencher,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+Strawberry Watermelon Quencher,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+Passionfruit Tea Lemonade Quencher,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+Iced Tea Quencher,Cold Beverages,Cold,,,,,,,,,,,,,timhortons
+"Roasted Hazelnut Cold Brew
+with Espresso Infused Foam",Cold Beverages,Cold,,,x,,x,,,,,,,,timhortons
+French Vanilla Cold Brew,Cold Beverages,Cold,,,x,,,,,,,,,,timhortons
+Pumpkin Spice Iced Capp®,Cold Beverages,Cold,o,o,x,,o,,,,,,o,o,timhortons
+Chocolate Syrup,Flavoured Beverage Syrups,Cold,,,,,,,,,,,,,timhortons
+Vanilla Syrup,Flavoured Beverage Syrups,Cold,,,,,,,,,,,,,timhortons
+Caramel Syrup,Flavoured Beverage Syrups,Cold,,,x,,,,,,,,,,timhortons
+Roasted Hazelnut Syrup,Flavoured Beverage Syrups,Cold,,,,,,,,,,,,,timhortons
+French Vanilla Syrup,Flavoured Beverage Syrups,Cold,,,,,,,,,,,,,timhortons
+Pumpkin Spice Syrup,Flavoured Beverage Syrups,Cold,o,o,x,,o,,,,,,o,o,timhortons
+Apple Fritter Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Blueberry Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Boston Cream Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,x,timhortons
+Canadian Maple Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Chocolate Cruller Donut,Donuts,Hot,x,x,x,x,o,,o,,,,,x,timhortons
+Chocolate Dip Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,x,timhortons
+Chocolate  Éclair Donut,Donuts,Hot,x,x,x,o,x,,o,,,,,x,timhortons
+Chocolate Glazed Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Chocolate Marble Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,x,timhortons
+Chocolate Snow Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Chocolate Toasted Coconut Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Coconut Cream Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Double Chocolate Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,x,timhortons
+Honey Cruller Donut,Donuts,Hot,x,x,x,x,o,,o,,,,,o,timhortons
+Honey Dip Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Long John Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,x,timhortons
+Maple Cruller Donut,Donuts,Hot,x,x,x,x,o,,o,,,,,o,timhortons
+Maple Dip Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Maple Éclair Donut,Donuts,Hot,x,x,x,o,x,,o,,,,,o,timhortons
+Maple Swirl Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Old Fashioned Dip Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,x,timhortons
+Old Fashioned Glazed Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Old Fashioned Plain Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Old Fashioned Snow Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Old Fashioned Sugar Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Raspberry Filled Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Sour Cream Glazed Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Sour Cream Plain Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Sour Cream Sugar Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Strawberry Dip Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Strawberry Filled Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Strawberry Vanilla Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Sugar Loop Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Toasted Coconut Donut,Donuts,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Vanilla Dip Donut,Donuts,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Pumpkin Spice Dream Donut,Donuts,Hot,x,x,x,x,x,o,o,,,o,,o,timhortons
+Creamy Maple Pecan Dream Donut,Donuts,Hot,x,x,x,o,x,o,x,,,,,x,timhortons
+Birthday Cake Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Chocolate Glazed Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Chocolate Snow Ball Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Chocolate Toasted Coconut Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Honey Dip Timbit,Timbits®,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Old Fashioned Glazed Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Old Fashioned Plain Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Old Fashioned Sugar Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Snow Ball Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Sour Cream Glazed Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Sour Cream Plain Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Sour Cream Sugar Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Strawberry Timbit,Timbits®,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Toasted Coconut Timbit,Timbits®,Hot,x,x,x,x,x,,o,,,,,o,timhortons
+Venetian Cream Timbit,Timbits®,Hot,x,x,x,o,o,,o,,,,,o,timhortons
+Chocolate Chip Muffin,Baked Items,Hot,x,x,x,x,x,,o,,,,,,timhortons
+Fruit Explosion Muffin,Baked Items,Hot,x,x,x,x,o,,o,,,,,,timhortons
+Wild Blueberry Muffin,Baked Items,Hot,x,x,x,x,o,,o,,,,,,timhortons
+Raisin Bran Muffin,Baked Items,Hot,x,x,x,x,o,,o,,,,,,timhortons
+Carrot Cake Walnut Muffin,Baked Items,Hot,x,x,x,x,x,,x,,,,,,timhortons
+Banana Pecan Muffin,Baked Items,Hot,x,x,x,x,o,,x,,,,,,timhortons
+Pumpkin Spice Muffin,Baked Items,Hot,x,x,x,x,o,,o,,,,,,timhortons
+Chocolate Chunk Cookie,Baked Items,Hot,x,x,x,x,x,o,o,,,,,,timhortons
+Peanut Butter Cookie,Baked Items,Hot,x,x,x,x,x,x,o,,,,,,timhortons
+Plain Croissant,Baked Items,Hot,x,x,x,o,x,,o,,,o,,o,timhortons
+Cheese Croissant,Baked Items,Hot,x,x,x,o,x,,o,,,o,,o,timhortons
+Chocolate Croissant,Baked Items,Hot,x,x,x,o,x,,o,,,o,,o,timhortons
+Cinnamon Bun,Baked Items,Hot,x,x,x,x,x,,o,,,,,,timhortons
+Cheese Tea Biscuit,Baked Items,Hot,x,x,x,o,o,,,,,,,o,timhortons
+Raisin Tea Biscuit,Baked Items,Hot,x,x,x,o,o,,,,,,,o,timhortons
+Plain Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,o,,o,timhortons
+Sesame Seed Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,x,,o,timhortons
+Everything Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,x,,o,timhortons
+12-Grain Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,x,,o,timhortons
+Cinnamon Raisin Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,o,,o,timhortons
+Blueberry Bagel,Baked Items,Hot,x,x,o,o,o,,o,,,o,,o,timhortons
+Four Cheese Bagel,Baked Items,Hot,x,x,x,o,,,,,,o,,o,timhortons
+Jalapeno Cheddar Bagel,Baked Items,Hot,x,x,x,o,,,,,,o,,o,timhortons
+Plain Cream Cheese,Toppings,Hot,,,x,,,,,,,,,,timhortons
+Herb & Garlic Cream Cheese,Toppings,Hot,,,x,,,,,,,,,,timhortons
+Strawberry Cream Cheese,Toppings,Hot,,,x,,,,,,,,,,timhortons
+Butter,Toppings,Hot,,,x,,,,,,,,,,timhortons
+Strawberry Jam Packet,Toppings,Hot,,,,,,,,,,,,,timhortons
+Raspberry Jam Packet,Toppings,Hot,,,,,,,,,,,,,timhortons
+Peanut Butter,Toppings,Hot,,,,,,x,,,,,,,timhortons
+Homestyle Biscuit Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,,,,,,o,timhortons
+Homestyle Biscuit Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,,,,,,o,timhortons
+Homestyle Biscuit Sandwich - Egg & Cheese,Breakfast,Hot,x,x,x,x,x,,,,,,,o,timhortons
+Homestyle Biscuit Sandwich - Steak & Egg,Breakfast,Hot,x,x,x,x,x,,,,,,x,o,timhortons
+Homestyle Biscuit Sandwich - Simply Sausage,Breakfast,Hot,x,x,x,,,,,,,,,o,timhortons
+English Muffin Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,,,,,,,timhortons
+English Muffin Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,,,,,,,timhortons
+English Muffin Sandwich - Egg & Cheese,Breakfast,Hot,x,x,x,x,x,,,,,,,,timhortons
+Plain Bagel Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,o,,,o,,o,timhortons
+Plain Bagel Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,o,,,o,,o,timhortons
+Sesame Seed Bagel Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Sesame Seed Bagel Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Everything Bagel Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Everything Bagel Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+12-Grain Bagel Sandwich - Sausage,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+12-Grain Bagel Sandwich - Bacon,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Plain Bagel BELT Sandwich,Breakfast,Hot,x,x,x,x,x,,o,,,o,,o,timhortons
+Sesame Seed Bagel BELT Sandwich,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Everything Bagel BELT Sandwich,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+12-Grain Bagel BELT Sandwich,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Breakfast Wrap - Sausage,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Breakfast Wrap - Bacon,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Breakfast Wrap - Sausage & Bacon,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Farmer's Wrap - Sausage,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Farmer's Wrap - Bacon,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Hash Brown,Breakfast,Hot,,,,,,,,,,,,,timhortons
+Yogurt Parfait,Breakfast,Hot,o,o,x,,o,,x,,,,,x,timhortons
+English Muffin Sandwich - Harvest,Breakfast,Hot,x,x,x,x,x,,,,,,,,timhortons
+English Muffin Sandwich - Simply Harvest,Breakfast,Hot,x,x,x,,x,,,,,,,,timhortons
+Farmer's Wrap - Harvest,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+English Muffin Sandwich - Maple Bacon,Breakfast,Hot,x,x,x,x,x,,,,,,,,timhortons
+Everything Bagel BELT - Maple Bacon,Breakfast,Hot,x,x,x,x,x,,o,,,x,,o,timhortons
+Farmer's Wrap - Maple Bacon,Breakfast,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Turkey Bacon Club Sandwich,Lunch,Hot,x,x,o,x,,,,,,o,x,,timhortons
+BLT Sandwich,Lunch,Hot,x,x,o,x,,,,,,o,x,,timhortons
+Ham & Cheddar Sandwich,Lunch,Hot,x,x,x,x,,,,,,o,x,,timhortons
+Roast Beef & Cheddar Sandwich,Lunch,Hot,x,x,x,x,,,,,,o,x,,timhortons
+Caprese Sandwich,Lunch,Hot,x,x,x,x,,,,,,o,,,timhortons
+Crispy Chicken Craveable,Lunch,Hot,x,x,x,x,o,,,,,o,x,,timhortons
+Roast Beef Craveable,Lunch,Hot,x,x,x,x,,,,,,o,x,,timhortons
+Spicy Buffalo Chicken Wrap,Lunch,Hot,x,x,x,x,o,,,,,o,,o,timhortons
+Spicy Buffalo Crispy Chicken Wrap,Lunch,Hot,x,x,x,x,o,,,,,o,,o,timhortons
+Chicken Bacon Ranch Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Crispy Chicken Bacon Ranch Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Southwest Chicken Wrap,Lunch,Hot,x,x,x,x,o,,,,,x,,o,timhortons
+Southwest Crispy Chicken Wrap,Lunch,Hot,x,x,x,x,o,,,,,x,,o,timhortons
+Classic Chicken Wrap,Lunch,Hot,x,x,o,x,o,,,,,o,x,o,timhortons
+Classic Crispy Chicken Wrap,Lunch,Hot,x,x,x,x,o,,,,,o,x,o,timhortons
+Cilantro Lime Chicken Loaded Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Cilantro Lime Crispy Chicken Loaded Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Cilantro Lime Veggie Loaded Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Habanero Chicken Loaded Wrap,Lunch,Hot,x,x,,x,x,,,,,o,,o,timhortons
+Habanero Crispy Chicken Loaded Wrap,Lunch,Hot,x,x,x,x,x,,,,,o,,o,timhortons
+Habanero Veggie Loaded Wrap,Lunch,Hot,x,x,,x,x,,,,,o,,o,timhortons
+Cilantro Lime Chicken Loaded Bowl,Lunch,Hot,x,x,x,x,x,,,,,,,,timhortons
+Cilantro Lime Crispy Chicken Loaded Bowl,Lunch,Hot,x,x,x,x,x,,,,,,,,timhortons
+Cilantro Lime Veggie Loaded Bowl,Lunch,Hot,x,x,x,x,x,,,,,,,,timhortons
+Habanero Chicken Loaded Bowl,Lunch,Hot,x,x,,x,x,,,,,,,,timhortons
+Habanero Crispy Chicken Loaded Bowl,Lunch,Hot,x,x,x,x,x,,,,,,,,timhortons
+Habanero Veggie Loaded Bowl,Lunch,Hot,x,x,,x,x,,,,,,,,timhortons
+Grilled Cheese Melt,Lunch,Hot,x,x,x,,x,,,,,x,,,timhortons
+Bacon Grilled Cheese Melt,Lunch,Hot,x,x,x,,x,,,,,x,,,timhortons
+Turkey Melt,Lunch,Hot,x,x,x,x,x,,,,,x,x,,timhortons
+Ham Melt,Lunch,Hot,x,x,x,x,x,,,,,x,x,,timhortons
+Chicken Noodle Soup,Lunch,Hot,x,x,x,x,o,,,,,,,,timhortons
+Cream of Broccoli Soup,Lunch,Hot,,,x,,x,,,,,,,,timhortons
+Garden Vegetable Soup,Lunch,Hot,x,x,x,x,,,,,,,,,timhortons
+Tomato Parmesan Soup,Lunch,Hot,,,x,,,,,,,,,,timhortons
+Spicy Thai Soup,Lunch,Hot,x,x,x,,x,,,x,x,,,,timhortons
+Potato Bacon Chowder,Lunch,Hot,,,x,,x,,,,,,,,timhortons
+Clam Chowder,Lunch,Hot,x,x,x,,,,,x,x,,,,timhortons
+Chili,Lunch,Hot,,,,,x,,,,,,,,timhortons
+Potato Wedges,Lunch,Hot,x,x,,,,,,,,,,,timhortons
+Soup Bun,Lunch,Hot,x,x,o,x,,,,,,o,,,timhortons
+Loaded Chili,Lunch,Hot,x,x,x,,x,,,,,,,,timhortons
