@@ -1,0 +1,70 @@
+Menu Item,Item Type,Item Temp,Wheat,Gluten,Milk,Egg,Soy,Peanuts,Tree Nuts,Fish,Shellfish,Sesame,Mustard,Sulphites,Food chain
+Cheesy Tex Mex Bread,Bread,Hot,x,x,x,,x,,,,,,,,subway
+English Muffin,Bread,Hot,x,x,,,,,,,,,,,subway
+Flat bread,Bread,Hot,x,x,o,,,,,,,,,,subway
+Gluten-Free Bread1,Bread,Hot,,,,x,,,,,,,,,subway
+Italian (White) Bread,Bread,Hot,x,x,,,x,,,,,,,,subway
+Italian Herbs and Cheese Bread,Bread,Hot,x,x,x,,x,,,,,,,,subway
+Multigrain Bread,Bread,Hot,x,x,,,x,,,,,,,,subway
+Potato Bun,Bread,Hot,x,x,o,x,,,,,,o,,,subway
+Wrap,Bread,Hot,x,x,,,x,,,,,,,,subway
+Bacon Strips,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,,,subway
+"Chicken, Grilled","Meat , Poultry , Seafood & Eggs",Hot,,,,,x,,,,,,,,subway
+"Chicken, Crispy","Meat , Poultry , Seafood & Eggs",Hot,x,x,x,x,o,,,,,,,,subway
+Chicken Strips - Plain,"Meat , Poultry , Seafood & Eggs",Hot,,,,,x,,,,,,,,subway
+Chicken Strips - Teriyaki Glazed,"Meat , Poultry , Seafood & Eggs",Hot,x,x,,,x,,,,,x,,,subway
+Cold Cut  Combo Meats,"Meat , Poultry , Seafood & Eggs",Hot,,,x,,,,,,,,x,,subway
+Egg Omelet  Patty,"Meat , Poultry , Seafood & Eggs",Hot,,,x,x,,,,,,,,,subway
+"Ham, Black Forest","Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,,,subway
+Italian BMT® Meats,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,x,,subway
+Meat balls with Marinara,"Meat , Poultry , Seafood & Eggs",Hot,x,x,x,,x,,,,,,,,subway
+Pepperoni,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,x,,subway
+Roast  Beef,"Meat , Poultry , Seafood & Eggs",Hot,,,,,x,,,,,,,,subway
+Rotisserie-Style Chicken,"Meat , Poultry , Seafood & Eggs",Hot,,,,,o,,,,,,,,subway
+Salami,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,,,subway
+"Sausage, Breakfast","Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,o,,subway
+Steak,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,,,subway
+Tuna (without  dressing),"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,x,,,,,subway
+Turkey Breast,"Meat , Poultry , Seafood & Eggs",Hot,,,,,,,,,,,,,subway
+Veggie Patty,"Meat , Poultry , Seafood & Eggs",Hot,,,,,x,,,,,,,,subway
+Canadian Cheddar Cheese,Cheese,Hot,,,x,,,,,,,,,,subway
+"Cheddar Cheese, Processed",Cheese,Hot,,,x,,x,,,,,,,,subway
+Feta,Cheese,Hot,,,x,,,,,,,,,,subway
+"Monterey Jack & Cheddar Cheese Blend, Shredded",Cheese,Hot,,,x,,,,,,,,,,subway
+"Parmesan, Grated",Cheese,Hot,,,x,,,,,,,,,,subway
+"Swiss, Sliced",Cheese,Hot,,,x,,,,,,,,,,subway
+"BBQ, Sweet  & Smoky",Condiment s & Dressings,Hot,,,,,,,,,,,x,,subway
+Caesar,Condiment s & Dressings,Hot,,,x,x,,,,x,,,x,,subway
+Chipotle Southwest,Condiment s & Dressings,Hot,,,x,x,,,,,,,,,subway
+Creamy Sriracha,Condiment s & Dressings,Hot,,,,x,,,,,,,x,,subway
+Garlic Aioli,Condiment s & Dressings,Hot,,,,x,,,,,,,x,,subway
+Green Goddess Dressing,Condiment s & Dressings,Hot,,,x,x,,,,,,,,,subway
+House Sandwich Sauce,Condiment s & Dressings,Hot,,,,,,,,,,,,,subway
+Light  Mayonnaise Type Dressing,Condiment s & Dressings,Hot,,,,x,,,,,,,x,,subway
+Mayonnaise,Condiment s & Dressings,Hot,,,,x,,,,,,,x,,subway
+"Mustard, Yellow",Condiment s & Dressings,Hot,,,,,,,,,,,x,,subway
+Peppercorn Ranch,Condiment s & Dressings,Hot,,,x,x,,,,,,,,,subway
+Smoky Honey Mustard,Condiment s & Dressings,Hot,,,,x,,,,,,,x,,subway
+Sweet  Onion Sauce (Contains Poppy Seeds),Condiment s & Dressings,Hot,,,,,,,,,,,x,,subway
+Sweet Onion Teriyaki Sauce (Contains Poppy Seeds),Condiment s & Dressings,Hot,x,x,,,x,,,,,x,x,,subway
+"Avocado, Smashed",Vegetables,Hot,,,,,,,,,,,,,subway
+Banana Peppers,Vegetables,Hot,,,,,,,,,,,,x,subway
+Jalapeno Pepper Slices,Vegetables,Hot,,,,,,,,,,,,,subway
+Olives (Green/ Black),Vegetables,Hot,,,,,,,,,,,,,subway
+Pickles,Vegetables,Hot,,,,,,,,,,,,,subway
+"Vegetables, Fresh",Vegetables,Hot,,,,,,,,,,,,,subway
+Chocolate Chip with M&M® Candies,Cookies & Desserts,Hot,x,x,x,x,x,o,o,,,,,,subway
+Chocolate Chunk,Cookies & Desserts,Hot,x,x,x,x,x,o,o,,,,,,subway
+Double Chocolate,Cookies & Desserts,Hot,x,x,x,x,x,o,o,,,,,,subway
+Oat meal Raisin,Cookies & Desserts,Hot,x,x,x,x,x,o,o,,,,,,subway
+Raspberry Cheesecake,Cookies & Desserts,Cold,,x,x,x,x,o,o,,,,,,subway
+White Chip Macadamia Nut,Cookies & Desserts,Hot,x,x,x,x,x,o,x,,,,,,subway
+Beef & Barley,Soups & Sides,Hot,x,x,,,x,,,,,,,,subway
+Beef Chili,Soups & Sides,Hot,x,x,,,x,,,,,,,,subway
+Chicken Noodle,Soups & Sides,Hot,x,x,x,x,,,,,,,,,subway
+Cream of Broccoli,Soups & Sides,Hot,x,x,x,,,,,,,,,,subway
+Cream of Mushroom,Soups & Sides,Hot,x,x,x,,,,,,,,,,subway
+Loaded Baked Potato,Soups & Sides,Hot,x,x,x,,,,,,,,,,subway
+Mac & Cheese,Soups & Sides,Hot,x,x,x,x,,,,,,,,,subway
+Potato Bites with Dip (Southwest  Chipotle Sauce),Soups & Sides,Hot,,,x,x,,,,,,,,,subway
+Rice Blend,Soups & Sides,Hot,,,,,,,,,,,,,subway
