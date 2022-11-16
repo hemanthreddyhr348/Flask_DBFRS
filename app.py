@@ -146,9 +146,35 @@ def get_recomended_items(item_in):
         #pd.concat(output_dataframe,Keyword_data[Keyword_data["Index"] == str(i[0])])
         output_dataframe = output_dataframe.append(Keyword_data[Keyword_data["Index"] == str(i[0])])
         #print(Keyword_data[Keyword_data["Index"] == str(i[0])])
+    output_dataframe = output_dataframe.transpose()
     output_json = output_dataframe.to_json()
-    return output_json
+    import json
+    Data = json.loads(output_json)
+    Data_arr = []
+    for key, value in Data.items():
+        print(key)
+        temp_dict = {}
+        temp_dict[key] = value
+        Data_arr.append(temp_dict)
+    return Data_arr
 
+
+@app.route('/Total_items/')
+
+def Total_items():
+    import pandas as pd
+    df = pd.read_csv('FoodChain_1.2.csv')
+    df = df.transpose()
+    json_data = df.to_json()
+    import json
+    items_Data = json.loads(json_data)
+    items_Data_arr = []
+    for key, value in items_Data.items():
+        print(key)
+        temp_dict = {}
+        temp_dict[key] = value
+        items_Data_arr.append(temp_dict)
+    return items_Data_arr
 
 if __name__== '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=5000)
