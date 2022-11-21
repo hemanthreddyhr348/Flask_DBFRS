@@ -101,6 +101,7 @@ def get_recomended_items(item_in):
     similarity = cosine_similarity(feature_vectors)
     #Get the item name from the user
     item = item_in.upper() #input("enter the item name: ")
+    #this is a dummy text
     list_of_items = Keyword_data["Menu Items"].tolist()
     item_close_match = difflib.get_close_matches(item, list_of_items)
     index_of_the_item = Keyword_data[Keyword_data["Menu Items"] == item_close_match[0]]['Index'].values[0]
