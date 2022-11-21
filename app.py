@@ -100,7 +100,7 @@ def get_recomended_items(item_in):
     #Cosine_similarity score
     similarity = cosine_similarity(feature_vectors)
     #Get the item name from the user
-    item = item_in #input("enter the item name: ")
+    item = item_in.upper() #input("enter the item name: ")
     list_of_items = Keyword_data["Menu Items"].tolist()
     item_close_match = difflib.get_close_matches(item, list_of_items)
     index_of_the_item = Keyword_data[Keyword_data["Menu Items"] == item_close_match[0]]['Index'].values[0]
@@ -153,9 +153,10 @@ def get_recomended_items(item_in):
     Data_arr = []
     for key, value in Data.items():
         print(key)
-        temp_dict = {}
-        temp_dict[key] = value
-        Data_arr.append(temp_dict)
+        # temp_dict = {}
+        # temp_dict[key] = value
+        # Data_arr.append(temp_dict)
+        Data_arr.append(value)
     return Data_arr
 
 
@@ -171,9 +172,10 @@ def Total_items():
     items_Data_arr = []
     for key, value in items_Data.items():
         print(key)
-        temp_dict = {}
-        temp_dict[key] = value
-        items_Data_arr.append(temp_dict)
+        # temp_dict = {}
+        # temp_dict[key] = value
+        # items_Data_arr.append(temp_dict)
+        items_Data_arr.append(value)
     return items_Data_arr
 
 if __name__== '__main__':
