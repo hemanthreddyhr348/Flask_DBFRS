@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodReccomendationSystem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/loginButtonGradiantStart</item>
+        <item name="colorPrimaryVariant">@color/loginButtonGradiantEnd</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorError">@color/color_A42921</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/loginButtonGradiantStart</item>
+        <item name="colorSecondaryVariant">@color/appDefaultWhiteSmoke</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="backgroundColor">@color/appDefaultFragBackground</item>
+        <item name="android:textColor">@color/appDefaultDarkText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>-->
+        <item  name="android:windowActivityTransitions">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="badgeStyle">@style/CustomBadge</item>
+
+
+    </style>
+
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered">
+        <item name="colorPrimary">@color/loginButtonGradiantStart</item>
+        <item name="colorSecondary">@color/loginButtonGradiantStart</item>
+        <item name="colorSurface">@color/appDefaultItemBackground</item>
+        <item name="colorOnSurface">@color/colorBlack</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="materialAlertDialogTitlePanelStyle">@style/Title.Panel.Center</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/Message.Center</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.DialogButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.App.DialogButton</item>
+    </style>
+</resources>

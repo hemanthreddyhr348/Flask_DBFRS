@@ -1,0 +1,240 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <!--        <item name="radioButtonStyle">@style/MyRadioButtonStyle</item>-->
+        <!--        <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>-->
+        <!--        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>-->
+
+    </style>
+
+    <style name="AppFullScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--    <style name="MyRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">-->
+    <!--        <item name="android:textColor">@drawable/option_compound_button_color_selector</item>-->
+    <!--        <item name="buttonTint">@drawable/option_compound_button_color_selector</item>-->
+    <!--    </style>-->
+
+    <!--activity animations-->
+    <!--   <style name="ActivityAnimation" parent="@android:style/Animation.Activity">-->
+    <!--        <item name="android:activityOpenEnterAnimation">@anim/enter_activity_scale</item>-->
+    <!--        <item name="android:activityOpenExitAnimation">@anim/activity_close_exit</item>-->
+    <!--       <item name="android:activityCloseEnterAnimation">-->
+    <!--           @anim/enter_activity_scale</item>-->
+    <!--       <item name="android:activityCloseExitAnimation">-->
+    <!--           @anim/activity_close_exit</item>-->
+    <!--    </style>-->
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+        <item name="colorControlNormal">@color/colorDarkGrey</item>
+        <item name="colorControlActivated">@color/color_F6BC34</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ll_win_bg_splash</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/avenir_heavy</item>
+
+    </style>
+
+    <style name="ThemeOverlay.App.Button.TextButton" parent="">
+        <item name="colorPrimary">@color/color_FAFBFA</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="colorPrimary">@color/appDefaultItemBackground</item>
+        <item name="colorOnPrimary">@color/appDefaultItemBackground</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    // Login Button Style
+    <style name="Widget.App.LoginButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/login_button_gradient</item>
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:stateListAnimator">@null</item>>
+        <item name="android:fontFamily">@font/avenir_heavy</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+
+    </style>
+
+
+    // Fb Button Style
+    <style name="Widget.App.FBButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/fb_button_gradient</item>
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:stateListAnimator">@null</item>>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+
+    </style>
+
+    // style EditText
+
+    <style name="Widget.AppCompat.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/appDefaultDarkText</item>
+        <item name="fontFamily">@font/avenir_medium</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+    </style>
+
+    // bottom navigation text style
+
+    <style name="bottom_navigation_text"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/avenir_heavy</item>
+    </style>
+
+
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemTextColor">@drawable/bottom_nav_item_color</item>
+
+    </style>
+
+    // Round Image Style
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    // Custom Tab Style
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/avenir_medium</item>
+    </style>
+
+
+    // Material Dialog Style
+
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:fontFamily">@font/avenir_heavy</item>
+    </style>
+
+    <style name="Widget.App.DialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="Title.Panel.Center" parent="MaterialAlertDialog.MaterialComponents.Title.Panel">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Message.Center" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    // TextInputLayout
+
+    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/avenir_medium</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/avenir_medium</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="hintTextColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextInputLayout" parent="">
+        <item name="colorPrimary">@color/loginButtonGradiantStart</item>
+        <item name="colorOnSurface">@color/appDefaultDarkText</item>
+        <item name="colorError">@color/appButtonGradiantStart</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.App.Caption</item>
+        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense</item>
+    </style>
+
+
+    // Material Progress Bar
+
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">20dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/loginButtonGradiantStart</item>
+    </style>
+
+
+    // Bottom Sheet Style
+
+    <style
+        name="ThemeOverlay.BottomSheetDialog"
+        parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.BottomSheet</item>
+    </style>
+
+    <style name="Widget.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay" parent="">
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+    </style>
+
+
+    // Badge Bottom Navigation
+
+    <style name="CustomBadge" parent="@style/Widget.MaterialComponents.Badge">
+        <item name="backgroundColor">@color/loginButtonGradiantStart</item>
+    </style>
+
+
+</resources>

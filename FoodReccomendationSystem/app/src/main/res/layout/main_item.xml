@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="song"
+            type="com.binatebits.food_reccomendation_system.data.entities.TotalItemsResponseItem"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/outerCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorWelcomeThreeTopBg"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginEnd="40dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWelcomeThreeTopBg"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/iv_user_image"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:visibility="gone"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/ic_launcher"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+
+                    <TextView
+                        android:id="@+id/tv_m_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:fontFamily="@font/avenir_heavy"
+                        android:text="@string/item_name"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tv_menu_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_toEndOf="@+id/tv_m_name"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/avenir_heavy"
+                        android:text="AAAAaaaaaaaaaaaaaaaaaaaaaaannnn
+                        aaaaaaaaaaa"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_calorie"
+                        android:layout_below="@+id/tv_menu_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/energy_kcal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_calories"
+                        android:layout_below="@+id/tv_menu_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_chol"
+                        android:layout_below="@+id/tv_calories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/cholesterols_mg"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cholestrol"
+                        android:layout_below="@+id/tv_calories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_carbo"
+                        android:layout_below="@+id/tv_cholestrol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/total_carbohydrate_g"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_carbohydrats"
+                        android:layout_below="@+id/tv_cholestrol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_diet"
+                        android:layout_below="@+id/tv_carbohydrats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/dietary_fiber_g"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_diet_f"
+                        android:layout_below="@+id/tv_carbohydrats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_s"
+                        android:layout_below="@+id/tv_diet_f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/total_sugars_g"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sugar"
+                        android:layout_below="@+id/tv_diet_f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_p"
+                        android:layout_below="@+id/tv_sugar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/protein_g"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_protein"
+                        android:layout_below="@+id/tv_sugar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_f"
+                        android:layout_below="@+id/tv_protein"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/total_fat_g"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_total_f"
+                        android:layout_below="@+id/tv_protein"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:text="250 cal"
+                        android:fontFamily="@font/avenir_medium"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/innerCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <FrameLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/iv_banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+                            app:srcCompat="@drawable/ll_win_bg_splash"
+                            android:foreground="@drawable/image_gradient"
+                            android:layout_margin="7dp"
+                            android:scaleType="center"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_song"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:textSize="12sp"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/avenir_medium"
+                            android:textColor="@color/white"
+                            android:text="@string/blank"
+                            />
+
+
+                    </FrameLayout>
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/check_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:text="@string/blank" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</layout>
